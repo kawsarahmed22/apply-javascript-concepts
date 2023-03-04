@@ -1,8 +1,8 @@
 function milesToKilometers(miles){
-    const kilometers = miles * 1.60934;
-    return kilometers;
+    const kilometer = miles * 1.60934;
+    return kilometer;
 }
 
 const twoMiles = 2;
-const twoMilesToKm = milesToKilometers (twoMiles);
-console.log(twoMilesToKm);
+const twoMilesToKilometer = milesToKilometers (twoMiles);
+console.log(twoMilesToKilometer);
