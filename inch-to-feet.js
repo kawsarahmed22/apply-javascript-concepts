@@ -3,5 +3,6 @@ function inchToFeet(inches){
     return feet;
 }
 
-const myInches = inchToFeet(60);
-console.log(myInches);
+const myInches = 60;
+const myFeet = inchToFeet(myInches);
+console.log(myFeet);
